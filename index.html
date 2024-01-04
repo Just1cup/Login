@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/02/css/global.css">
+    <title>Login  Authentication</title>
+</head>
+<body>
+    <div class="container-main">
+        <div class="text-content">
+            <h1 class="titulo">Login</h1>
+        </div>
+        <div class="content">
+            <form id="loginForm">
+                <label class="input-label" for="username">User</label>
+                <input class="input-style" type="text" id="username" placeholder="Enter your username" required><br>
+
+                <label class="input-label" for="password">Password</label>
+                <input class="input-style" type="password" id="password" placeholder="Enter your password" required><br>
+                <div class="btn-position">
+                
+                <button type="button" onclick="validateLogin()">Login</button>
+            </div>
+            </form>
+            <p id="loginMessage"></p>
+        </div>
+    </div>
+
+    <script src="/02/js/login.js"></script>
+</body>
+</html>
